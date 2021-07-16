@@ -15,3 +15,5 @@ Start 2021.07.13
        var c = 5;  
            c = 10;  
        var c = 15;
+ - undefined -> 값이 정의되지 않음, null -> 값이 없음(없는 것으로 정의 됌)
+ - 배열 추가 -> push 함수 사용 (ex. array.push("push_item"))
