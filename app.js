@@ -15,6 +15,7 @@ console.log(c);
 const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
 daysOfWeek.push("sun");
 */
+////
 
 // object 생성 방법 //
 /*
@@ -27,6 +28,7 @@ console.log(player);
 console.log(player.name);
 // 요소 추가도 가능
 player.lastName = "potato";
+////
 
 // function 생성 방법 //
 function sayHello(nameOfPerson) {
@@ -45,6 +47,7 @@ const player_insidefunction = {
   },
 };
 */
+////
 
 // return 값이 있는 함수 //
 /*
@@ -69,6 +72,7 @@ if (isNaN(age) || age < 0) {
   console.log("You can do whatever you want.");
 }
 */
+////
 
 // JS - HTML 상호작용 //
 
@@ -98,12 +102,49 @@ const title_searchbyclass_and_tag = document.querySelector(".hello h1");
 const title_searchbyId = document.querySelector("#hello");
 */
 
+////
+
 // Event 관리 //
 
-const title = document.querySelector("div.hello:first-child h1");
+const h1 = document.querySelector("div.hello:first-child h1");
 
 function handleTitleClick() {
-  title.style.color = "blue";
+  h1.style.color = "blue";
+}
+
+function handleMouseEnter() {
+  h1.innerText = "Mouse is here!";
+}
+
+function handleMouseLeave() {
+  h1.innerText = "Mouse is gone!";
+}
+
+function handleWindowResize() {
+  document.body.style.backgroundColor = "tomato";
+}
+
+function handleWindowCopy() {
+  alert("copier");
+}
+
+function handleWindowOffline() {
+  alert("SOS no WIFI");
+}
+
+function handleWindowOnline() {
+  alert("ALL GOOOD");
 }
 // 클릭하면 handleTitleClick 함수 실행!
-title.addEventListener("click", handleTitleClick);
+h1.addEventListener("click", handleTitleClick);
+
+// 또 다른 방법
+h1.onclick = handleTitleClick;
+
+h1.addEventListener("mouseenter", handleMouseEnter);
+h1.addEventListener("mouseleave", handleMouseLeave);
+
+window.addEventListener("resize", handleWindowResize);
+window.addEventListener("copy", handleWindowCopy);
+window.addEventListener("offline", handleWindowOffline);
+window.addEventListener("online", handleWindowOnline);
