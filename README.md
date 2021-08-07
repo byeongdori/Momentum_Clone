@@ -10,12 +10,5 @@ Start 2021.07.13
 
 ## JAVA SCRIPT
 
-1. 상수 선언은 const 사용, 변수 선언은 let 사용 
- - ex) const a = 5; (값 변경 불가)  
-       let b = 5; b = 50; (값 변경 가능)
- - cf) var은 선언 및 값변경 여러번 가능 (잘 안씀)  
-       var c = 5;  
-           c = 10;  
-       var c = 15;
- - undefined -> 값이 정의되지 않음, null -> 값이 없음(없는 것으로 정의 됌)
- - 배열 추가 -> push 함수 사용 (ex. array.push("push_item"))
+CSS - Style
+JS - Animation

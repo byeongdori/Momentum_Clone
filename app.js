@@ -109,7 +109,12 @@ const title_searchbyId = document.querySelector("#hello");
 const h1 = document.querySelector("div.hello:first-child h1");
 
 function handleTitleClick() {
-  h1.style.color = "blue";
+  const clickedClass = "clicked"
+  if (h1.className == clickedClass) {
+    h1.className = "";
+  } else {
+    h1.className = clickedClass;
+  }
 }
 
 function handleMouseEnter() {
@@ -137,9 +142,7 @@ function handleWindowOnline() {
 }
 // 클릭하면 handleTitleClick 함수 실행!
 h1.addEventListener("click", handleTitleClick);
-
-// 또 다른 방법
-h1.onclick = handleTitleClick;
+// 또 다른 방법 h1.onclick = handleTitleClick;
 
 h1.addEventListener("mouseenter", handleMouseEnter);
 h1.addEventListener("mouseleave", handleMouseLeave);
