@@ -108,13 +108,18 @@ const title_searchbyId = document.querySelector("#hello");
 
 const h1 = document.querySelector("div.hello:first-child h1");
 
+// html 파일에 클래스 추가, 제거
 function handleTitleClick() {
-  const clickedClass = "clicked"
-  if (h1.className == clickedClass) {
-    h1.className = "";
+  const clickedClass = "clicked";
+  /*
+  if (h1.classList.contains(clickedClass)) {
+    h1.classList.remove(clickedClass);
   } else {
-    h1.className = clickedClass;
+    h1.classList.add(clickedClass);
   }
+  */
+  // 위의 조건문과 같은 코드
+  h1.classList.toggle(clickedClass)
 }
 
 function handleMouseEnter() {
