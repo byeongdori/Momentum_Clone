@@ -4,9 +4,8 @@ Cloning MOMENTUM with HTML, CSS, JavaScript
 
 Start 2021.07.13
 
-0. 브라우저는 HTML을 열고, HTML은 CSS와 JS를 가져옴
-
-- JS에서 HTML(Document) 속성 변경, 호출 가능
+Practice 폴더
+- js, css에 대한 기초 문법 정리
 
 ## JAVA SCRIPT
 
