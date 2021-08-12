@@ -11,3 +11,7 @@ Practice 폴더
 
 CSS - Style
 JS - Animation
+
+preventdefault()
+.classList
+localstorage
