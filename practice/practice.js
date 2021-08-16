@@ -156,3 +156,18 @@ window.addEventListener("resize", handleWindowResize);
 window.addEventListener("copy", handleWindowCopy);
 window.addEventListener("offline", handleWindowOffline);
 window.addEventListener("online", handleWindowOnline);
+////
+
+// Timeout and Interval //
+
+function sayHello() {
+  console.log("hello");
+}
+
+// setTimeout -> 1번째 인자로 전달된 함수를,
+// 2번째 인자(ms)가 지난 후 실행시켜라! 
+setTimeout(sayHello, 5000)
+
+// setInterval -> 1번째 인자로 전달된 함수를,
+// 2번째 인자(ms) 마다 실행시켜라!
+setInterval(sayHello, 5000)
