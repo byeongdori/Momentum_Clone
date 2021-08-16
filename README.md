@@ -15,3 +15,4 @@ JS - Animation
 preventdefault()
 .classList
 localstorage
+setTimeout/setInterval
