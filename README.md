@@ -16,4 +16,5 @@ preventdefault()
 .classList
 localstorage
 setTimeout/setInterval
-##
+
+todo.js 코드흐름 살펴보기
