@@ -18,3 +18,6 @@ localstorage
 setTimeout/setInterval
 
 todo.js 코드흐름 살펴보기
+.filter 함수
+
+css 활용하여 사이트 이쁘게 꾸미기 / 다른 사람들 완성품 참고
