@@ -2,7 +2,7 @@
 
 Cloning MOMENTUM with HTML, CSS, JavaScript
 
-Start 2021.07.13 
+Start 2021.07.13  
 Course End 2021.08.24
 
 To do: 
