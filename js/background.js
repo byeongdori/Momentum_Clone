@@ -4,4 +4,4 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.querySelector("#bgImage");
 
-bgImage.style = `height:100%; width:auto; background-image: url(img/${chosenImage})`;
+bgImage.style = `height:100vh; background-repeat : np-repeat; background-size: cover; background-image: url(img/${chosenImage})`;
