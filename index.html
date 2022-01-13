@@ -14,6 +14,15 @@
       <div style="position: absolute; top: 50%; left: 50%; 
       -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);">
+        <div style="        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 300px;
+        color: white;
+        ">
+        <strong id="clock" style="font-size: 50px;">00:00:00</strong>
+        </div>
         <form id="login-form" class="hidden" color="white" style="
         display: flex;
         justify-content: center;
@@ -22,21 +31,15 @@
             <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
             <label for="name" class="form__label">What is your Name?</label>
           </div>
-          <input type="submit" value="Log In" />
+          <input type="submit" value="Log In"/>
         </form>
-        <div style="        
+        <br>
+        <strong id="greeting" style="
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
-        ">
-        <h1 id="clock" >00:00:00</h1>
-        </div>
-        <h1 id="greeting" style="
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;"></h1>
+        font-size:35px;
+        color: white;"></strong>
         <form id="todo-form" style="
         display: flex;
         justify-content: center;
@@ -48,6 +51,7 @@
           <input type="submit" value="Enter" />
         </form>
           <ul id="todo-list"></ul>
+        <br>
         <div id="quote" style="
         display: flex;
         justify-content: center;
@@ -56,12 +60,13 @@
           <span></span>
           <span></span>
         </div>
+        <br>
         <div id="weather" style="
         display: flex;
         justify-content: center;
         align-items: center;
         color: white;">
-          <span id="weather-first"></span>
+          <span id="weather-first"></span>&nbsp;
           <span id="weather-second"></span>
         </div>
         </div>

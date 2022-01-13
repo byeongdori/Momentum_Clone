@@ -13,8 +13,8 @@ function onGeoOk(position) {
     .then((data) => {
       const weather = document.getElementById("weather-first");
       const city = document.getElementById("weather-second");
-      city.innerText = data.name;
-      weather.innerText = `${data.weather[0].main} / ${data.main.temp}° `;
+      city.innerText = " " + data.name;
+      weather.innerText = `${data.weather[0].main} / ${data.main.temp}°`;
     });
 }
 

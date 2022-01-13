@@ -1,4 +1,4 @@
-const loginForm = document.querySelector("#login-form");
+const loginForm = document.getElementById("login-form");
 const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
 
@@ -8,9 +8,10 @@ const USERNAME_KEY = "username";
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
-if (savedUsername == null) {
+loginForm.addEventListener("submit", onLoginSubmit);
+if (savedUsername === null) {
+  console.log(loginInput.value);
   loginForm.classList.remove(HIDDEN_CLASSNAME);
-  loginForm.addEventListener("submit", onLoginSubmit);
 } else {
   paintGreetings();
 }
@@ -19,10 +20,10 @@ function onLoginSubmit(event) {
   // preventDefault 함수 -> 기본 동작을 막아줌! (submit 해도 새로고침 안되게 막아줌!)
   event.preventDefault();
   loginForm.classList.add(HIDDEN_CLASSNAME);
-
-  // local 저장소 사용
-  localStorage.setItem(USERNAME_KEY, loginInput.value);
-
+  if (loginInput.value) {
+    // local 저장소 사용
+    localStorage.setItem(USERNAME_KEY, loginInput.value);
+  }
   paintGreetings();
 }
 
@@ -33,6 +34,6 @@ function paintGreetings() {
   greeting.innerText = "Hello " + username;
   greeting.innerText = `Hello ${username}`;
   */
-  greeting.innerText = `Hello ${username}`;
+  greeting.innerText = `반가워요 ${username}님!`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
