@@ -1,6 +1,6 @@
 # MOMENTUM Clone
 Start 2021.07.13  
-Course End 2021.08.24
+End 2021.08.24
 
 Cloning MOMENTUM with HTML, CSS, JavaScript
 - https://nomadcoders.co/javascript-for-beginners
