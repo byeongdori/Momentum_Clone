@@ -1,11 +1,13 @@
 # MOMENTUM Clone
-
-Cloning MOMENTUM with HTML, CSS, JavaScript
-- https://nomadcoders.co/javascript-for-beginners
-- Result page  
-  - https://byeongdori.github.io/Momentum_Clone/  
 Start 2021.07.13  
 Course End 2021.08.24
+
+Cloning MOMENTUM with HTML, CSS, JavaScript
+
+- https://nomadcoders.co/javascript-for-beginners
+
+- Result page  
+  - https://byeongdori.github.io/Momentum_Clone/  
 
 ## TOPIC
 - JavaScript
