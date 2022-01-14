@@ -2,7 +2,8 @@
 
 Cloning MOMENTUM with HTML, CSS, JavaScript
 - https://nomadcoders.co/javascript-for-beginners
-
+- Result page  
+  - https://byeongdori.github.io/Momentum_Clone/  
 Start 2021.07.13  
 Course End 2021.08.24
 
@@ -14,6 +15,4 @@ Course End 2021.08.24
 - OpenWeather API
 
 ## Result
-- Result page
-  - https://byeongdori.github.io/Momentum_Clone/  
 ![momentum_result](https://user-images.githubusercontent.com/33740149/149489377-57c07de8-698a-4930-a8fc-a778bd0c3d93.png)
