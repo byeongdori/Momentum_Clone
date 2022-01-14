@@ -6,7 +6,7 @@ Cloning MOMENTUM with HTML, CSS, JavaScript
 - https://nomadcoders.co/javascript-for-beginners
 
 ## TOPIC
-- JavaScript
+- HTML, CSS, JavaScript
 - LocalStorage
 - Ajax, Json
 - Dom, Fetch
