@@ -57,4 +57,51 @@
   .form__field:required, .form__field:invalid {
     box-shadow: none;
   }
-  
+
+  /* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 60vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+  }
+   */
+  .button {
+    flex: auto;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.3s;
+    background-color: transparent;
+    color: #ffffff;
+  }
+  .button:after {
+    position: relative;
+    transition: 1s;
+    content: "";
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #fae7e7;
+  }
+  .button:hover {
+    cursor: pointer;
+  }
+  .button:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .button:hover:nth-of-type(1) {
+    box-shadow: 0px 0px 0px 3px #f8efef;
+  }
+  .button:hover:nth-of-type(1):after {
+    width: 0%;
+  }
