@@ -12,3 +12,6 @@ Course End 2021.08.24
 - Ajax, Json
 - Dom, Fetch
 - OpenWeather API
+
+## Result
+![momentum_result](https://user-images.githubusercontent.com/33740149/149489377-57c07de8-698a-4930-a8fc-a778bd0c3d93.png)
